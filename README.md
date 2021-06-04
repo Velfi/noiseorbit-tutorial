@@ -18,7 +18,7 @@ I'll be working in [p5.js](https://p5js.org/) for this tutorial, so anyone can f
 ## Setting up the Sketch
 I like to work with different settings than the defaults. Let's get that set up now.
 
-##Color Space
+## Color Space
 I prefer using the HSB color space and thinking of hue as rotations in a cylinder. For some more information, and reasoning, take a look at this wonderful article by Tyler Hobbs: [Working with Color in Generative Art](https://tylerxhobbs.com/essays/2016/working-with-color-in-generative-art).
 
 ```javascript
@@ -31,7 +31,7 @@ function setup() {
 }
 ```
 
-##Coordinates
+## Coordinates
 
 Processing and p5.js both use pixel coordinates for drawing primitives. This makes it hard to change the size of your sketch, e.g. 400x400px to 1000x1000px, when you want a nice high-resolution final product. I prfer to use relative coordinates, 0.0 to 1.0, for width and height. To do this, we need two helper functions, also borrowed from Tyler Hobbs: [Using Quild for Artwork](https://tylerxhobbs.com/essays/2015/using-quil-for-artwork).
 
@@ -47,7 +47,7 @@ function h(val) {
 }
 ```
 
-##Styles
+## Styles
 
 Just to keep things consistent, throw this at the begining of the `draw` function.
 
